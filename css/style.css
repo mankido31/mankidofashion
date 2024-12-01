@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: arial; font-size: 20px; color: #666666;margin: 0
+}
+.top-bar{
+	width: 100%; height: 60px; line-height: 60px; color: rgba(217,217,217,0.5); border-bottom: 1px solid gray; left: 0; top: 0;background-color: rgba(192,160,126,1.00)
+}
+.icont{
+	padding: 0px 20px; text-decoration: none
+}
+.icont i:hover{
+	color: red
+}
+.sign{
+	text-decoration: none; color: rgba(217,217,217,0.5)
+}
+.sign:hover{
+	color: red;
+}
+.ml-15{
+	margin-left: 40px; color: black
+}
+.can-giua{
+text-decoration: none; font-weight: bold; font-size: 17px; margin-right: 30px; color: white
+}
+.can-giua:hover{
+	color: red
+}
+header{
+	width: 100%; height: 80px; position: absolute; left: 0; top: 35px; z-index: 50
+}
+.logo{
+	color: black; text-align: center
+}
+.logo a{
+	font-size: 35px; text-decoration: none; font-weight: bold; color: black;
+}
+.logo a:hover{
+	color: red
+}
+.menu ul{
+	margin: 0; padding: 0; list-style: none; display: flex
+}
+.menu{
+	padding: 30px 0px; margin: 0px 0px 50px
+}
+banner{
+	width: 100%; position: relative;
+    max-width: 1000px;
+    height: auto; 
+    background-color: #ccc;
+    margin: 0px auto;
+}
+.menu ul li a{
+	text-decoration: none; padding: 10px 20px; font-size: 19px; color: black; display: block; font-weight: bold
+}
+.menu ul li a:hover{
+	background-color:rgba(217,217,217,1.00); color: red
+}
+.menu ul li{
+	position: relative
+}
+.menu .sub-menu{
+	position: absolute; display: flex; flex-direction: column; width: 230px; background-color: rgba(217,217,217,0.5);opacity: 0
+}
+.menu li:hover .sub-menu{
+	opacity: 1
+}
+.sub-menu li{
+	border-bottom: 1px solid white
+}
+.cover{
+	position: absolute; width: 100%; height: 100%; background-color: rgba(0,0,0,0.4); left: 0; top: 0
+}
+/*slide control*/
+
+
+#slide .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slide .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+#slide .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slide .owl-nav [class*='owl-'] {
+	font-size:80px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: yellow
+}
+
+#slide .owl-nav .owl-next{ position:absolute; right:5%;}
+#slide .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slide .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:red;
+      text-decoration: none; }
+.search-bar {
+    display: flex; text-decoration: none;
+    justify-content: center; /* Căn giữa thanh tìm kiếm */
+    margin: 15px 0; 
+}
+
+.search-bar form {
+    display: flex;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    overflow: hidden; text-decoration: none
+}
+
+.search-bar input[type="text"] {
+    border: none;
+    outline: none;
+    width: 200px;
+    font-size: 16px; text-decoration: none
+}
+
+.search-bar button {
+    border: none;
+    background-color: #794B3A; /* Màu nền nút */
+    color: white;
+    font-size: 16px;
+    cursor: pointer; text-decoration: none
+}
+
+.search-bar button:hover {
+    background-color: #5a3628; /* Màu khi rê chuột */
+}
+.tieu-de{
+	color: rgba(121,76,59,1.00);font-size: 35px; justify-self: center; text-align: center; text-decoration: none
+}
+.w-25{
+	width: 25%; padding: 15px;float: left
+}
+.w-25 a{
+	text-decoration: none; border-radius: 30px 10px 10px; color: rgba(121,76,59,1.00)
+}
+.w-25 a:hover{
+	color: white
+}
+.vien{
+	width: 100%; min-height: 200px; border: 1px solid #635757; border-radius: 30px 15px 15px; padding: 0px; text-align: center; background-color: rgba(192,160,126,1.00); margin-bottom: 40px
+}
+.bo-goc{
+	border-radius: 30px 15px 15px;
+}
+.ten{
+	font-size: 18px; color: rgba(121,76,59,1.00);
+}
+.gia{
+	font-size: 16px; color: rgba(121,76,59,1.00); font-weight: bold; 
+}
+.ma{
+	font-size: 13px; color: #635757;
+}
+.text-center{
+	text-align: center
+}
+.text-den{
+	color: black; text-decoration: none; font-weight: bold
+}
+.gach-chan{
+	border-bottom: 2px solid darkred
+}
+#contact{
+	width: 100%;min-height: 600px;background-image: url("");background-repeat: no-repeat;background-size: cover;background-position: center center
+}
+
+.shadow{
+	border: 1px solid rgba(173,173,173,1.00);width: 100%;min-height: 300px;box-shadow: 5px 5px 5px gray;padding: 30px
+}
+.form-control{
+	padding: 8px;width: 100%;margin-bottom: 10px
+}
+/*footer*/
+footer{
+	width: 100%; min-height: 200px; background-color: rgba(192,160,126,1.00); margin-top: 50px; color: white; text-align: center
+}
+.bg-bac{
+	background-color:rgba(207,200,200,1.00); min-height: 200px; text-align: center
+}
+foote .lg{
+	text-decoration: none; font-size: 18px; font-weight: bold; color: #3E3E3E
+}
+footer .lg:hover{
+	color: darkred; margin-right: 5px
+}
+footer a:hover{
+	color: darkred
+}
+footer a{
+	color: #3D3D3D; margin-right: 5px
+}
+footer a:hover{
+	color: darkred
+}
+footer ul{
+	margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column
+}
+footer ul li a{
+	padding: 10px; display: block; text-decoration: none
+}
+.pd-30{
+	padding-bottom: 15px; color: black;
+}
+.text-ft{
+	text-decoration: none; padding-left: 10px; font-size: 19px
+}
+.dashed-box {
+    width: auto; 
+    min-height: auto; 
+    border: 2px dashed black; 
+    border-radius: 10px;
+    padding: auto; 
+    text-align: center; 
+    color: black; 
+justify-content: center; 
+    align-items: center; 
+	margin-left: 30px;
+	font-size: 17px
+}

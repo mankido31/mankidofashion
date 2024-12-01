@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+*{ box-sizing: border-box}
+.container{
+	width: 80%; margin: 0 auto}
+.img-100{ width: 100%; height: auto}
+.img-circle{ border-radius: 50%}
+.row{ display: flex; flex-wrap: wrap}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+[class*="col-"] {
+  padding: 0px;
+  
+}
+.py-50{ padding: 50px}
+.p-0{ padding: 0}
+.my-30{ margin-top: 30px; margin-bottom: 30px}
+.mx-auto { margin-left: auto; margin-right: auto}
+.text-right{ text-align: right}
+.text-center { text-align: center}
+.d-flex{ display: flex}
+.d-block{ display:block}
+.d-none{ display: none}
+.justify-center{ justify-content: center; }
+.justify-between{ justify-content: space-between}
+.justify-around{ justify-content: space-around}
+.btn-fill-primary
+{
+    background-color:#F87503;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+     border: 2px solid #F87503;
+}
+.btn-fill-primary:hover{
+     background-color:#Ff0;
+    color: #333
+}
+.btn-outline-primary
+{
+    border: 2px solid #F87503;
+    background: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase
+}
+.btn-outline-primary:hover{
+     background-color:#F87503;
+    }
+.d-flex{
+	display: flex
+}
+.justify-center{
+	justify-content: center
+}
+.justify-between{
+	justify-content: space-between
+}
+.justify-around{
+	justify-content: space-around
+}
+.align-item{
+	align-items: center
+}
+.hinh{
+	width: 100%;min-height: 200px;position: relative;overflow: hidden
+}
+.ss-icon{
+	width: 80%;height: 40px;display: flex;justify-content: space-around;left: 10%;bottom: -15%;position: absolute;transition: all 1s;
+	border-radius:0px
+}
+.ss-icon a{
+	width: 40px;height: 40px;background-color:rgba(192,160,126,0.7) ;border-radius: 50%;display: flex;justify-content: center;align-items: center;text-decoration: none;color:rgba(86,50,35,1.00)
+}
+.ss-icon a:hover{
+	background-color:rgba(189,45,48,1.00);color: yellow
+}
+.hinh:hover .ss-icon{
+	bottom: 40% }
+.content-container {
+    max-width: 1000px;
+    font-family: Arial, sans-serif;
+    line-height: 0.5; align-items: center; justify-content: center;
+	margin: 0px 45.6%
+}
+
+.content-text {
+    overflow: hidden;
+    text-overflow: ellipsis; align-items: center; justify-content: center
+}
+
+.hidden-content {
+    display: none; /* Ẩn nội dung ban đầu */
+}
+
+.toggle-btn {
+    background-color:rgba(192,160,126,1.00); /* Màu nền nút */
+    color:rgba(86,50,35,1.00);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px; font-weight: bold
+}
+
+.toggle-btn:hover {
+    background-color:cadetblue; color:white/* Màu khi rê chuột */
+}
